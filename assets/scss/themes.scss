@@ -6,7 +6,7 @@
 
 @mixin darkTheme {
   // Background color
-  --bg-color: rgba(32, 33, 36, 1);
+  --bg-color: rgba(7, 37, 63, 1);
   // Light Background color
   --bg-light-color: rgba(255, 255, 255, 0.04);
   // Dark Background color
@@ -75,7 +75,8 @@
 
 @mixin blueTheme {
   // Acent color
-  --ac-color: theme("colors.blue.400");
+  //--ac-color: theme("colors.blue.400");
+  --ac-color: rgba(4, 184, 225, 1);
 }
 
 @mixin greenTheme {

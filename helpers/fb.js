@@ -4,12 +4,12 @@ import "firebase/auth"
 
 // Initialize Firebase, copied from cloud console
 const firebaseConfig = {
-  apiKey: process.env.API_KEY || "AIzaSyCMsFreESs58-hRxTtiqQrIcimh4i1wbsM",
-  authDomain: process.env.AUTH_DOMAIN || "postwoman-api.firebaseapp.com",
-  databaseURL: process.env.DATABASE_URL || "https://postwoman-api.firebaseio.com",
-  projectId: process.env.PROJECT_ID || "postwoman-api",
-  storageBucket: process.env.STORAGE_BUCKET || "postwoman-api.appspot.com",
-  messagingSenderId: process.env.MESSAGING_SENDER_ID || "421993993223",
+  apiKey: process.env.API_KEY || "aAIzaSyCvjcCuO4t31NHRCY6Elqt232heK6msV0A",
+  authDomain: process.env.AUTH_DOMAIN || "rest-rps.firebaseapp.com",
+  databaseURL: process.env.DATABASE_URL || "https://rest-rps.firebaseio.com/",
+  projectId: process.env.PROJECT_ID || "rest-rps",
+  storageBucket: process.env.STORAGE_BUCKET || "rest-rps.appspot.com",
+  messagingSenderId: process.env.MESSAGING_SENDER_ID || "260648230627",
   appId: process.env.APP_ID || "1:421993993223:web:ec0baa8ee8c02ffa1fc6a2",
   measurementId: process.env.MEASUREMENT_ID || "G-ERJ6025CEB",
 }

@@ -1,43 +1,8 @@
 <template>
   <footer class="flex-col flex-no-wrap">
     <div class="row-wrapper">
-      <span v-if="version.name" class="font-mono">
-        <a
-          class="footer-link"
-          :href="'https://github.com/hoppscotch/hoppscotch/releases/tag/' + version.name"
-          target="_blank"
-          rel="noopener"
-          v-tooltip="'GitHub'"
-        >
-          {{ version.name }}
-        </a>
-        <a
-          class="footer-link hide-on-small-screen"
-          href="https://www.netlify.com"
-          target="_blank"
-          rel="noopener"
-        >
-          Powered by Netlify
-        </a>
-        <!-- <span v-if="version.hash">
-          -
-          <a
-            :href="'https://github.com/hoppscotch/hoppscotch/commit/' + version.hash"
-            target="_blank"
-            rel="noopener"
-          >{{version.hash}}</a>
-        </span> -->
-        <!-- <span v-if="version.variant">({{version.variant}})</span> -->
-      </span>
+      <span v-if="version.name" class="font-mono"> Версия:{{ version.name }} </span>
       <span>
-        <a href="https://liyasthomas.web.app" target="_blank" rel="noopener">
-          <button class="icon" v-tooltip="'Liyas Thomas'">🦄</button>
-        </a>
-        <a href="mailto:liyascthomas@gmail.com" target="_blank" rel="noopener">
-          <button class="icon" v-tooltip="$t('contact_us')">
-            <i class="material-icons">email</i>
-          </button>
-        </a>
         <v-popover>
           <button class="icon" v-tooltip="$t('choose_language')">
             <i class="material-icons">translate</i>
