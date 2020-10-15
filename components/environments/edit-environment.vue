@@ -31,7 +31,7 @@
             <label for="variableList">{{ $t("env_variable_list") }}</label>
             <div>
               <button class="icon" @click="clearContent($event)" v-tooltip.bottom="$t('clear')">
-                <i class="material-icons">clear_all</i>
+                <i class="material-icons">clear</i>
               </button>
             </div>
           </div>
@@ -155,9 +155,9 @@ export default {
       this.$store.commit("postwoman/removeVariables", [])
       e.target.innerHTML = this.doneButton
       this.$toast.info(this.$t("cleared"), {
-        icon: "clear_all",
+        icon: "clear",
       })
-      setTimeout(() => (e.target.innerHTML = '<i class="material-icons">clear_all</i>'), 1000)
+      setTimeout(() => (e.target.innerHTML = '<i class="material-icons">clear</i>'), 1000)
     },
     addEnvironmentVariable() {
       let value = { key: "", value: "" }

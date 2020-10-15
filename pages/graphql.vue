@@ -33,7 +33,7 @@
                 <label for="headerList">{{ $t("header_list") }}</label>
                 <div>
                   <button class="icon" @click="headers = []" v-tooltip.bottom="$t('clear')">
-                    <i class="material-icons">clear_all</i>
+                    <i class="material-icons">clear</i>
                   </button>
                 </div>
               </div>

@@ -35,7 +35,7 @@
                     @click="collectionJSON = '[]'"
                     v-tooltip.bottom="$t('clear')"
                   >
-                    <i class="material-icons">clear_all</i>
+                    <i class="material-icons">clear</i>
                   </button>
                 </div>
               </div>

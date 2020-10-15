@@ -11,14 +11,14 @@
         v-tooltip.right="$t('home')"
         :aria-label="$t('home')"
       >
-        <logo alt class="material-icons" style="height: 24px"></logo>
+        <i class="material-icons">http</i>
       </nuxt-link>
       <nuxt-link
         :to="localePath('realtime')"
         :class="linkActive('/realtime')"
         v-tooltip.right="$t('realtime')"
       >
-        <i class="material-icons">language</i>
+        <i class="material-icons">connect_without_contact</i>
       </nuxt-link>
       <nuxt-link
         :to="localePath('graphql')"

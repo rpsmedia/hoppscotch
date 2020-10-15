@@ -274,7 +274,7 @@
                         @click="clearContent('bodyParams', $event)"
                         v-tooltip.bottom="$t('clear')"
                       >
-                        <i class="material-icons">clear_all</i>
+                        <i class="material-icons">clear</i>
                       </button>
                     </div>
                   </div>
@@ -344,7 +344,7 @@
                         @click="clearContent('rawParams', $event)"
                         v-tooltip.bottom="$t('clear')"
                       >
-                        <i class="material-icons">clear_all</i>
+                        <i class="material-icons">clear</i>
                       </button>
                     </div>
                   </div>
@@ -414,7 +414,7 @@
                 v-tooltip.bottom="$t('clear_all')"
                 ref="clearAll"
               >
-                <i class="material-icons">clear_all</i>
+                <i class="material-icons">clear</i>
               </button>
             </span>
           </div>
@@ -440,7 +440,7 @@
                           @click="clearContent('parameters', $event)"
                           v-tooltip.bottom="$t('clear')"
                         >
-                          <i class="material-icons">clear_all</i>
+                          <i class="material-icons">clear</i>
                         </button>
                       </div>
                     </div>
@@ -530,7 +530,7 @@
                           @click="clearContent('auth', $event)"
                           v-tooltip.bottom="$t('clear')"
                         >
-                          <i class="material-icons">clear_all</i>
+                          <i class="material-icons">clear</i>
                         </button>
                       </div>
                     </div>
@@ -624,7 +624,7 @@
                           @click="clearContent('access_token', $event)"
                           v-tooltip.bottom="$t('clear')"
                         >
-                          <i class="material-icons">clear_all</i>
+                          <i class="material-icons">clear</i>
                         </button>
                         <button
                           class="icon"
@@ -739,7 +739,7 @@
                           @click="clearContent('headers', $event)"
                           v-tooltip.bottom="$t('clear')"
                         >
-                          <i class="material-icons">clear_all</i>
+                          <i class="material-icons">clear</i>
                         </button>
                       </div>
                     </div>
@@ -888,7 +888,7 @@
                             @click="clearContent('tests', $event)"
                             v-tooltip.bottom="$t('clear')"
                           >
-                            <i class="material-icons">clear_all</i>
+                            <i class="material-icons">clear</i>
                           </button>
                         </div>
                       </div>
@@ -1106,7 +1106,7 @@
                     @click="clearContent('tokens', $event)"
                     v-tooltip.bottom="$t('clear')"
                   >
-                    <i class="material-icons">clear_all</i>
+                    <i class="material-icons">clear</i>
                   </button>
                 </div>
               </div>
@@ -2412,7 +2412,7 @@ export default {
       this.$toast.info(this.$t("cleared"), {
         icon: "clear_all",
       })
-      setTimeout(() => (target.innerHTML = '<i class="material-icons">clear_all</i>'), 1000)
+      setTimeout(() => (target.innerHTML = '<i class="material-icons">clear</i>'), 1000)
     },
     saveRequest() {
       if (!this.checkCollections()) {

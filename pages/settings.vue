@@ -140,7 +140,7 @@
           <div class="row-wrapper">
             <label for="url">{{ $t("url") }}</label>
             <button class="icon" @click="resetProxy" v-tooltip.bottom="$t('reset_default')">
-              <i class="material-icons">clear_all</i>
+              <i class="material-icons">clear</i>
             </button>
           </div>
           <input
@@ -292,7 +292,7 @@ export default {
       this.$toast.info(this.$t("cleared"), {
         icon: "clear_all",
       })
-      setTimeout(() => (target.innerHTML = '<i class="material-icons">clear_all</i>'), 1000)
+      setTimeout(() => (target.innerHTML = '<i class="material-icons">clear</i>'), 1000)
     },
     syncCollections() {
       if (fb.currentUser !== null) {

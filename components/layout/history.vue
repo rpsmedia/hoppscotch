@@ -161,7 +161,7 @@
           :disabled="history.length === 0"
           @click="enableHistoryClearing"
         >
-          <i class="material-icons">clear_all</i>
+          <i class="material-icons">clear</i>
           <span>{{ $t("clear_all") }}</span>
         </button>
         <v-popover>
