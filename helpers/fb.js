@@ -4,7 +4,7 @@ import "firebase/auth"
 
 // Initialize Firebase, copied from cloud console
 const firebaseConfig = {
-  apiKey: process.env.API_KEY || "aAIzaSyCvjcCuO4t31NHRCY6Elqt232heK6msV0A",
+  apiKey: process.env.API_KEY || "AIzaSyCvjcCuO4t31NHRCY6Elqt232heK6msV0A",
   authDomain: process.env.AUTH_DOMAIN || "rest-rps.firebaseapp.com",
   databaseURL: process.env.DATABASE_URL || "https://rest-rps.firebaseio.com/",
   projectId: process.env.PROJECT_ID || "rest-rps",

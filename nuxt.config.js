@@ -195,6 +195,12 @@ export default {
         file: "en-US.json",
       },
       {
+        code: "ru",
+        name: "Russian",
+        iso: "ru-RU",
+        file: "ru-RU.json",
+      },
+      {
         code: "es",
         name: "Español",
         iso: "es-ES",
@@ -323,7 +329,7 @@ export default {
     fallback: true,
   },
   publicRuntimeConfig: {
-    GA_ID: process.env.GA_ID || "UA-61422507-4",
+    GA_ID: process.env.GA_ID || "UA-180693983-1",
     GTM_ID: process.env.GTM_ID || "GTM-NMKVBMV",
     BASE_URL: process.env.BASE_URL || "https://hoppscotch.io/",
   },
