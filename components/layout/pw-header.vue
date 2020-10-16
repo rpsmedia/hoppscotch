@@ -3,8 +3,8 @@
     <div class="row-wrapper">
       <span class="slide-in">
         <nuxt-link :to="localePath('index')">
-          <h1 class="text-xl hide-on-small-screen hover:text-acColor">Hoppscotch</h1>
-          <h1 class="text-xl show-on-small-screen hover:text-acColor">REST</h1>
+          <h1 class="text-xl hide-on-small-screen hover:text-acColor">RestFan</h1>
+          <h1 class="text-xl show-on-small-screen hover:text-acColor">RestFan</h1>
         </nuxt-link>
       </span>
       <span>
@@ -425,7 +425,7 @@ export default {
       if (navigator.share) {
         navigator
           .share({
-            title: "Hoppscotch",
+            title: "RestFan",
             text:
               "RestFan - REST API request builder - Helps you create requests faster, saving precious time on development.",
             url: "https://rest.fan",

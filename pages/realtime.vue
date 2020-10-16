@@ -26,7 +26,7 @@
 export default {
   head() {
     return {
-      title: `Realtime • Hoppscotch`,
+      title: `Realtime • RestFan`,
     }
   },
 }

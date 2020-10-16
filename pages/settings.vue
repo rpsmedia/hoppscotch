@@ -319,7 +319,7 @@ export default {
   },
   head() {
     return {
-      title: `Settings • Hoppscotch`,
+      title: `Settings • RestFan`,
     }
   },
 }

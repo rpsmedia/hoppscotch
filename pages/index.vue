@@ -2222,8 +2222,8 @@ export default {
         const date = new Date().toLocaleDateString()
         navigator
           .share({
-            title: "Hoppscotch",
-            text: `Hoppscotch • API request builder at ${time} on ${date}`,
+            title: "RestFan",
+            text: `RestFan • API request builder at ${time} on ${date}`,
             url: window.location.href,
           })
           .then(() => {})

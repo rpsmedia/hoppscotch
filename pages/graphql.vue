@@ -824,7 +824,7 @@ export default {
   },
   head() {
     return {
-      title: `GraphQL • Hoppscotch`,
+      title: `GraphQL • RestFan`,
     }
   },
 }

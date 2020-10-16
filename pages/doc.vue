@@ -382,7 +382,7 @@ export default {
   },
   head() {
     return {
-      title: `Documentation • Hoppscotch`,
+      title: `Documentation • RestFan`,
     }
   },
 }
