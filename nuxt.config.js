@@ -1,8 +1,8 @@
 // Some helpful application constants.
 // TODO: Use these when rendering the pages (rather than just for head/meta tags...)
 export const options = {
-  name: "Hoppscotch",
-  shortDescription: "A free, fast and beautiful API request builder",
+  name: "REST.Fan",
+  shortDescription: "RestFan - REST API request builder",
   description: "Helps you create requests faster, saving precious time on development.",
   loading: {
     color: "var(--ac-color)",
@@ -29,7 +29,7 @@ export default {
       {
         name: "keywords",
         content:
-          "hoppscotch, hopp scotch, hoppscotch online, hoppscotch app, postwoman, postwoman chrome, postwoman online, postwoman for mac, postwoman app, postwoman for windows, postwoman google chrome, postwoman chrome app, get postwoman, postwoman web, postwoman android, postwoman app for chrome, postwoman mobile app, postwoman web app, api, request, testing, tool, rest, websocket, sse, graphql, socketio",
+          "rest, api, builder, hoppscotch app, postwoman, postwoman chrome, postwoman online, postwoman for mac, postwoman app, postwoman for windows, postwoman google chrome, postwoman chrome app, get postwoman, postwoman web, postwoman android, postwoman app for chrome, postwoman mobile app, postwoman web app, api, request, testing, tool, rest, websocket, sse, graphql, socketio",
       },
       {
         name: "X-UA-Compatible",
