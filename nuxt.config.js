@@ -173,7 +173,7 @@ export default {
     id: process.env.GTM_ID,
   },
   sitemap: {
-    hostname: process.env.BASE_URL || "https://hoppscotch.io/",
+    hostname: process.env.BASE_URL || "https://rest.fan/",
   },
   robots: {
     UserAgent: "*",
@@ -331,7 +331,7 @@ export default {
   publicRuntimeConfig: {
     GA_ID: process.env.GA_ID || "UA-180693983-1",
     GTM_ID: process.env.GTM_ID || "GTM-NMKVBMV",
-    BASE_URL: process.env.BASE_URL || "https://hoppscotch.io/",
+    BASE_URL: process.env.BASE_URL || "https://rest.fan/",
   },
   privateRuntimeConfig: {
     API_KEY: process.env.API_KEY,
