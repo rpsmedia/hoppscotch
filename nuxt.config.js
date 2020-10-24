@@ -330,7 +330,7 @@ export default {
   },
   publicRuntimeConfig: {
     GA_ID: process.env.GA_ID || "UA-180693983-1",
-    GTM_ID: process.env.GTM_ID || "GTM-NMKVBMV",
+    GTM_ID: process.env.GTM_ID || "GTM-K6G2MT3",
     BASE_URL: process.env.BASE_URL || "https://rest.fan/",
   },
   privateRuntimeConfig: {
